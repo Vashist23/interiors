@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<!--bootstrap.min.css-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="shortcut icon" type="image/icon" href="assets\images\company\ansari logo.jpg"/>
+
+		
+	<!-- bootsnav -->
+	<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Gallery | WASHROOM</title>
+</head>
+<body background = "C:\Users\ABDUS SABOUR RAHIL\Desktop\ansariinteriors.com\assets\images\company\background.jpg">
+	<!-- Heading Name -->
+
+	<section class="top-area">
+		<div class="header-area">
+			<!-- Start Navigation -->
+			<nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy" style="z-index: -100 !important;" data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+				<div class="container">
+
+					<!-- Start Header Navigation -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+							<i class="fa fa-bars"></i>
+						</button>
+						<a class="navbar-brand" href="index.html">ANSARI <span>INTERIORS & DESIGNS</span></a>
+
+					</div><!--/.navbar-header-->
+					<!-- End Header Navigation -->
+				</div><!--/.container-->
+			</nav><!--/nav-->
+			<!-- End Navigation -->
+		</div><!--/.header-area-->
+		<div class="clearfix"></div>
+
+<div class="heading">
+	<h1> </h1>
+</div>
+	<!-- Image Gallery section all image in one div -->
+	<div class="gallery">
+<img src= "img/washroom/1.jpg" alt="Image 1" class="gallery-img" onclick="showImage(src)">
+<img src= "img/washroom/2.jpg" alt="Image 2" class="gallery-img" onclick="showImage(src)">
+<img src= "img/washroom/3.jpg" alt="Image 3" class="gallery-img" onclick="showImage(src)">
+<img src= "img/washroom/4.jpg" alt="Image 4" class="gallery-img" onclick="showImage(src)">
+<img src= "img/washroom/5.jpg" alt="Image 5" class="gallery-img" onclick="showImage(src)">
+<img src= "img/washroom/6.jpg" alt="Image 6" class="gallery-img" onclick="showImage(src)">
+<img src= "img/washroom/7.jpg" alt="Image 7" class="gallery-img" onclick="showImage(src)">
+<img src= "img/washroom/8.jpg" alt="Image 8" class="gallery-img" onclick="showImage(src)">
+<img src= "img/washroom/9.jpg" alt="Image 9" class="gallery-img" onclick="showImage(src)">
+<img src= "img/washroom/10.jpg" alt="Image 10" class="gallery-img" onclick="showImage(src)">
+
+</div>
+	<div class="image-popup-container" id="imagePopup">
+		<span class="close-button" onclick="closeImage()">×</span>
+		<img src="" alt="Popup Image" id="popupImage">
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
